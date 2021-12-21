@@ -8,6 +8,7 @@ ADDR   = (SERVER, PORT)
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(ADDR)
 
+"21:45"
 def handle_client(conn, addr):
     pass
 
